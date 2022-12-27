@@ -1,0 +1,27 @@
+/* =================================================LINKS AND IMPORTS================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* ===================================================CSS VARIABLES==================================================== */
+:root{
+    --font-lato: 'Lato', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* ===================================================NAVBAR=========================================================== */
+.navbar{
+    padding: 0;
+}
+.navbar-brand > img{
+    width: 3rem;
+    border-radius: 50%;
+}
+.head-cont{
+    background: url(/assets/Blue-controller.jpg) rgba(0, 0, 0, 0.759);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 100vh;
+}
