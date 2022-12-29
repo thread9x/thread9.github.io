@@ -45,3 +45,63 @@
     margin-top: 1rem;
     font-size: 3rem;
 }
+/* =================================================VIDEOS SECTION==================================================== */
+.videos-cont{
+    background: url(/assets/Blue-controller.jpg) rgba(0, 0, 0, 0.616);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    padding: 4rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+}
+.videos-cont > .heading{
+    margin-bottom: 7rem;
+    font-size: 3rem;
+    color: white;
+}
+.card-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.videos-cont > .card-cont> .card{
+    width: 16rem;
+    background: rgba(255, 255, 255, .75);
+    margin:0 2rem 2rem 2rem;
+}
+.card-img-top{
+    opacity: .96;
+}
+.card-title{
+    margin-bottom: 5rem;
+}
+.more-videos{
+    align-self: flex-end;
+}
+/* ===================================================LIVE STREAMS====================================================== */
+
+.live-cont{
+    background: url(/assets/keyboard.jpg) rgba(0, 0, 0, 0.616);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    padding: 4rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+}
+.live-cont > .heading{
+    margin-bottom: 7rem;
+    font-size: 3rem;
+    color: white;
+}
+.live-cont > .card-cont> .card{
+    width: 16rem;
+    background: rgba(255, 255, 255, .75);
+    margin:0 2rem 2rem 2rem;
+}
