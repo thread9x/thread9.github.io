@@ -1,0 +1,104 @@
+/* ===============SCROLLBAR============== */
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+/* =============NAVBAR============== */
+.nav{
+    display: flex;
+    align-items: center;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    padding: .4rem 0;
+}
+.navbar-brand > img{
+    width: 3rem;
+    border: 2px solid white;
+}
+.nav-links{
+    padding: 0 .5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.02rem;
+}
+/* ===========================Landing Page============================== */
+
+/* ==================Welcome sect===================== */
+.welcome-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(/assets/images/backgrounds/red-pc.jpg) rgba(0, 0, 0, 0.651);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.welcome-sect > .yt-logo{
+    border: 5px solid white;
+    width: 20rem;
+}
+.welcome-sect > h3{
+    color: white;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.welcome-sect > a > .down-arrow {
+    width: 4rem;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2rem;
+    animation: click-me 2s;
+    animation-iteration-count: infinite;
+    transition: .1s;
+}
+@keyframes click-me {
+    0%{margin-bottom: 0;}
+    25%{margin-bottom: 5.5rem;}
+    50%{margin-bottom: 0;}
+    75%{margin-top: 5.5rem;}
+    100%{margin-top: 0;}
+    
+}
+/* ==================Streams sect===================== */
+.stream-sect {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: url(/assets/images/backgrounds/desk_pink.jpg) rgba(0, 0, 0, 0.651);
+    background-blend-mode: darken;
+}
+.stream-sect > .heading{
+    color: white;
+    position: relative;
+    top: 1rem;
+}
+.stream-sect > .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+.stream-sect > .card-container >.card{
+ padding: .7rem .5rem;
+ border-radius: 10px;
+ height: 23rem;
+ background-color: rgba(255, 255, 255, 0.788);
+}
+.stream-sect > .card-container >.card > img{
+    border-radius: 10px;
+}
+.stream-sect > .card-container >.card > .card-body > .card-title{
+    font-size: 1rem;
+}
+.stream-sect > .card-container >.card >.card-body > .btn{
+    position: absolute;
+    bottom: .7rem;
+}
