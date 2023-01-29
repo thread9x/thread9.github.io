@@ -1,8 +1,3 @@
-/* ===============SCROLLBAR============== */
-::-webkit-scrollbar{
-    width: 10px;
-    background-color: rgba(0, 0, 0, 0);
-}
 /* =============NAVBAR============== */
 .nav{
     display: flex;
@@ -23,6 +18,21 @@
     color: white;
     font-weight: 500;
     font-size: 1.02rem;
+}
+/* =================Footer================= */
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.footer > .logo > img{
+    width: 4rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.footer > h4{
+    font-size: 1rem;
+    color: white;
 }
 /* ===========================Landing Page============================== */
 
@@ -74,6 +84,8 @@
     justify-content: space-around;
     background: url(/assets/images/backgrounds/desk_pink.jpg) rgba(0, 0, 0, 0.651);
     background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
 }
 .stream-sect > .heading{
     color: white;
@@ -99,6 +111,46 @@
     font-size: 1rem;
 }
 .stream-sect > .card-container >.card >.card-body > .btn{
+    position: absolute;
+    bottom: .7rem;
+}
+
+/* ==================Videps sect===================== */
+.video-sect {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: url(/assets/images/backgrounds/razer_keyboard.jpg) rgba(0, 0, 0, 0.651);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+.video-sect > .heading{
+    color: white;
+    position: relative;
+    top: 1rem;
+}
+.video-sect > .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+.video-sect > .card-container >.card{
+ padding: .7rem .5rem;
+ border-radius: 10px;
+ height: 23rem;
+ background-color: rgba(255, 255, 255, 0.788);
+}
+.video-sect > .card-container >.card > img{
+    border-radius: 10px;
+}
+.video-sect > .card-container >.card > .card-body > .card-title{
+    font-size: 1rem;
+}
+.video-sect > .card-container >.card >.card-body > .btn{
     position: absolute;
     bottom: .7rem;
 }
