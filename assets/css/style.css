@@ -24,15 +24,26 @@
     display: flex;
     align-items: center;
     background-color: black;
+    height: 4rem;
 }
 .footer > .logo > img{
-    width: 4rem;
+    width: 3rem;
     border: 2px solid white;
     border-radius: 50%;
 }
 .footer > h4{
     font-size: 1rem;
     color: white;
+}
+.footer > .links-cont > a{
+    padding: 0 .2rem;
+}
+.footer > .links-cont > a > img{
+    width: 1.3rem;
+    transition: .3s;
+}
+.footer > .links-cont > a > img:hover{
+    opacity: .8;
 }
 /* ===========================Landing Page============================== */
 
