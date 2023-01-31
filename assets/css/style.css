@@ -18,6 +18,10 @@
     color: white;
     font-weight: 500;
     font-size: 1.02rem;
+    transition: .3s;
+}
+.nav-links:hover{
+    color: rgb(202, 202, 202);
 }
 /* =================Footer================= */
 .footer{
