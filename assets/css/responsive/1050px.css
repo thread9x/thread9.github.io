@@ -1,0 +1,24 @@
+/* ===========================LANDING PAGE============================ */
+
+/* ==================Streams sect===================== */
+.landing-page > .stream-sect > .card-container{
+    flex-wrap: wrap;
+}
+.landing-page > .stream-sect > .card-container >.card{
+    padding: .7rem .5rem;
+    border-radius: 10px;
+    height: 20rem;
+    width: 15rem;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+/* ==================Videos sect===================== */
+.landing-page > .video-sect > .card-container{
+    flex-wrap: wrap;
+}
+.landing-page > .video-sect > .card-container >.card{
+    padding: .7rem .5rem;
+    border-radius: 10px;
+    height: 20rem;
+    width: 15rem;
+    background-color: rgba(255, 255, 255, 0.788);
+}

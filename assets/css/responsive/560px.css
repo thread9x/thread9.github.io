@@ -1,0 +1,22 @@
+.footer{
+    flex-direction: column;
+    height: auto;
+    padding: .5rem 0;
+}
+.footer > .links-cont{
+    position: relative;
+    margin: auto;
+}
+/* =========================LANDING PAGE============================== */
+
+/* ================STREAMS SECT================ */
+.landing-page > .stream-sect {
+    height: auto;
+    padding: 3rem 0;
+}
+/* ================VIDEOS SECT================ */
+
+.landing-page > .video-sect{
+    height: auto;
+    padding: 3rem 0;
+}

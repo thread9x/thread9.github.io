@@ -1,0 +1,31 @@
+/* ========================LANDING PAGE======================== */
+
+/* ==================WELCOME SECT================= */
+.landing-page > .welcome-sect > .yt-logo {
+    border: 4px solid white;
+    width: 18rem;
+}
+.landing-page > .welcome-sect > a > .down-arrow {
+    width: 3.5rem;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2rem;
+    left: 47vw;
+    animation: click-me 2s;
+    animation-iteration-count: infinite;
+    transition: .1s;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 1rem;
+}
+/* .navbar-nav{
+    margin: 29rem 0 0 0;
+} */
+.nav-item{
+    margin: 2rem auto;
+}
+.nav-links{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,13 @@
+/* ==========================LANDING PAGE========================== */
+
+/* ==================Streams sect===================== */
+.landing-page > .stream-sect > .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+/* ==================Videos sect===================== */
+.landing-page > .video-sect > .card-container{
+    width: 100vw;
+}

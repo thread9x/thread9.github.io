@@ -39,6 +39,10 @@
     font-size: 1rem;
     color: white;
 }
+.footer > .links-cont{
+    position: absolute;
+    right: 1rem;
+}
 .footer > .links-cont > a{
     padding: 0 .2rem;
 }
@@ -118,6 +122,8 @@
  padding: .7rem .5rem;
  border-radius: 10px;
  height: 23rem;
+ width: 18rem;
+ margin: 1.4rem 0;
  background-color: rgba(255, 255, 255, 0.788);
 }
 .landing-page > .stream-sect > .card-container >.card > img{
@@ -158,6 +164,8 @@
  padding: .7rem .5rem;
  border-radius: 10px;
  height: 23rem;
+ width: 18rem;
+ margin: 1.4rem 0;
  background-color: rgba(255, 255, 255, 0.788);
 }
 .landing-page > .video-sect > .card-container >.card > img{
@@ -180,12 +188,24 @@
     height: 100vh;
     overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 5rem 0 0 2rem;
 }
 .streams-page > .main > .stream-sect{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
+.streams-page > .main > .stream-sect > .stream{
+    display: flex;
+    
+}
+.streams-page > .main > .stream-sect > .stream > .thumbnail > img{
+    width: 15rem;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.streams-page > .main > .stream-sect > .stream > .about{
+    margin-left: 1rem;
+}
+/* .streams-page > .main > .stream-sect > .stream > .about > .title{
+    
+} */
