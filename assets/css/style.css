@@ -180,32 +180,32 @@
 }
 /* ===========================Streams Page============================== */
 
-.streams-page > .main {
+.streams-page{
     background: url(/assets/images/backgrounds/blue_controller.jpg) rgba(0, 0, 0, 0.651);
     background-blend-mode: darken;
     background-position: center;
     background-size: cover;
-    height: 100vh;
     overflow: hidden;
-    display: flex;
+}
+.streams-page > .main{
+    height: 100vh;
     padding: 5rem 0 0 2rem;
-}
-.streams-page > .main > .stream-sect{
+    overflow: auto;
+} 
+.streams-page > .main > .card-cont{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: wrap;
+    overflow-y: auto;
 }
-.streams-page > .main > .stream-sect > .stream{
-    display: flex;
-    
+.streams-page > .main > .card-cont > .card{
+    width: 23rem;
+    margin: 1rem 2rem;
+    background-color: rgb(29, 29, 29);
+    border: 2px solid rgb(48, 48, 48);
 }
-.streams-page > .main > .stream-sect > .stream > .thumbnail > img{
-    width: 15rem;
-    border-radius: 10px;
-    border: 2px solid white;
+.streams-page > .main > .card-cont > .card > .card-body > .card-title{
+    font-size: 1rem;
+    color: white;
 }
-.streams-page > .main > .stream-sect > .stream > .about{
-    margin-left: 1rem;
-}
-/* .streams-page > .main > .stream-sect > .stream > .about > .title{
-    
-} */
