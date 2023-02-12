@@ -209,3 +209,40 @@
     font-size: 1rem;
     color: white;
 }
+.streams-page > .main > .card-cont > .yt-link > .btn{
+    margin: 1rem 0;
+}
+
+/* ===========================Videos Page============================== */
+
+.videos-page{
+    background: url(/assets/images/backgrounds/xbox-controller.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.videos-page > .main{
+    height: 100vh;
+    padding: 5rem 0 0 2rem;
+    overflow: auto;
+} 
+.videos-page > .main > .card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: wrap;
+    overflow-y: auto;
+}
+.videos-page > .main > .card-cont > .card{
+    width: 23rem;
+    margin: 1rem 2rem;
+    background-color: rgb(29, 29, 29);
+    border: 2px solid rgb(48, 48, 48);
+}
+.videos-page > .main > .card-cont > .card > .card-body > .card-title{
+    font-size: 1rem;
+    color: white;
+}
+.videos-page > .main > .card-cont > .yt-link > .btn{
+    margin: 1rem 0;
+}
