@@ -244,15 +244,20 @@
 /* ===========================Videos Page============================== */
 
 .videos-page{
-    background: url(/assets/images/backgrounds/xbox-controller.jpg);
+    background: url(/assets/images/backgrounds/blue_controller.jpg) rgba(0, 0, 0, 0.751);
+    background-blend-mode: darken;
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    
+
 }
 .videos-page > .main{
     height: 100vh;
     padding: 5rem 0 0 2rem;
     overflow: auto;
+    
+
 } 
 .videos-page > .main > .card-cont{
     display: flex;
@@ -260,17 +265,40 @@
     justify-content: center;
     overflow-x: wrap;
     overflow-y: auto;
+    
 }
 .videos-page > .main > .card-cont > .cards{
     width: 23rem;
-    height: 1rem;
     margin: 1rem 2rem;
-    background-color: rgb(29, 29, 29);
-    border: 2px solid rgb(48, 48, 48);
+    padding: .4rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .3s;
+}
+.videos-page > .main > .card-cont > .cards:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+}
+.videos-page > .main > .card-cont > .cards > .card-img-top{
+    border-radius: 10px;
+}
+.videos-page > .main > .card-cont > .card:hover{
+    width: 25rem;
+}
+.videos-page > .main > .card-cont > .cards > .card-body{
+    display: flex;
+    align-items: center;
+    padding: .5rem 0 0 0;
+
 }
 .videos-page > .main > .card-cont > .cards > .card-body > .card-title{
     font-size: 1rem;
     color: white;
+    padding: 0 0 0 .5rem;
+}
+.videos-page > .main > .card-cont > .cards > .card-body >  .yt-logo{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
 }
 .videos-page > .main > .card-cont > .yt-link > .btn{
     margin: 1rem 0;
